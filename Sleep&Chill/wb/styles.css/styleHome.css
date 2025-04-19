@@ -1,0 +1,70 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('../../images/home.jpg');
+    background-size: cover; 
+    background-position: center center; 
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+}
+
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 75px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.slogan {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #f4f4f4;
+    margin-bottom: 30px;
+}
+
+.btn-enter {
+    background-color: #0527a5;
+    color: white;
+    font-size: 1.2rem;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.btn-enter:hover {
+    background-color: #3c8ae4;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    font-size: 0.9rem;
+    color: #999;
+}
+
+footer p {
+    margin: 0;
+}

@@ -1,0 +1,149 @@
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    }
+    
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    }
+    
+    .container {
+    background-color: #0059b3;
+    padding: 30px;
+    border-radius: 15px;
+    width: 50%;
+    margin: 30px auto;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+    }
+    
+    .container h2 {
+    margin-bottom: 20px;
+    }
+    
+    label {
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
+    text-align: left;
+    }
+    
+    button {
+    background-color: #003366;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    }
+    
+    button:hover {
+    background-color: #002244;
+    }
+    
+    .info-box {
+    background-color: #0073e6;
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+    margin: 20px auto;
+    color: white;
+    text-align: left;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+    }
+    
+    .info-box h2 {
+    text-align: center;
+    }
+    
+    .info-box ul {
+    padding-left: 20px;
+    }
+    
+    .info-box p, .info-box ul {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: rgb(62, 95, 196);
+    color: white;
+    }
+    
+    .logo img {
+    width: 130px;
+    height: 80px;
+    border-radius: 25%;
+    object-fit: cover;
+    }
+    
+    .title {
+    font-size: 1.6em;
+    font-weight: bold;
+    color: white;
+    flex-grow: 1;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .user-info {
+    font-size: 1.3em;
+    font-weight: bold;
+    }
+    
+    .logout-button {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background 0.3s;
+    }
+    
+    .logout-button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    }
+
+.consigli-box {
+    background-color: #0099e6; 
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+    margin: 20px auto;
+    color: white;
+    text-align: left;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+}
+
+.consigli-box h3 {
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.consigli-box ul {
+    padding-left: 20px;
+    font-size: 16px;
+}
+.consigli-titolo {
+    font-size: 5px; 
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold; 
+    text-align: center; 
+    color: #ffffff; 
+    margin-bottom: 15px; 
+}
